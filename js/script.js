@@ -81,7 +81,7 @@ function validDigits(text){
 }
 
 function calcImc(height, weight){
-    const imc = (weight/(height*height.tofixed(1)));
+    const imc = (weight / (height * height)).toFixed(1);
     return imc;
 }
 
